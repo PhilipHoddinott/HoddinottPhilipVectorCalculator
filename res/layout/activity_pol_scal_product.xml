@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vectorcalculator.PolScalProduct" >
+
+   <TextView
+        android:id="@+id/labelAngle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/labelRadius1"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="28dp"
+        android:text="Angle1:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/labelRadius1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/labelAngle1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="74dp"
+        android:text="Radius1:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/labelRadius2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/labelAngle1"
+        android:layout_below="@+id/labelAngle1"
+        android:layout_marginTop="35dp"
+        android:text="Radius2:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/labelAngle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/labelRadius2"
+        android:layout_below="@+id/labelRadius2"
+        android:layout_marginTop="33dp"
+        android:text="Angle2:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/inputRadius1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/labelRadius1"
+        android:layout_alignBottom="@+id/labelRadius1"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal" >
+    </EditText>     <EditText
+        android:id="@+id/inputAngle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/labelAngle1"
+        android:layout_alignBottom="@+id/labelAngle1"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal" />
+    <EditText
+        android:id="@+id/inputRadius2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/labelRadius2"
+        android:layout_alignBottom="@+id/labelRadius2"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal" />
+    <EditText
+        android:id="@+id/inputAngle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/labelAngle2"
+        android:layout_alignBottom="@+id/labelAngle2"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal" />
+
+    <Button
+        android:id="@+id/btnDrawVect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputAngle2"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@+id/labelRadius2"
+        android:text="Draw Vector" />
+
+</RelativeLayout>

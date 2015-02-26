@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vectorcalculator"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CartScalProduct"
+            android:label="@string/title_activity_cart_scal_product" >
+        </activity>
+        <activity
+            android:name=".CartVecAddThree"
+            android:label="@string/title_activity_cart_vec_add" >
+        </activity>
+        <activity
+            android:name=".CartVecAddTwo"
+            android:label="@string/title_activity_cart_vec_add_two" >
+        </activity>
+        <activity
+            android:name=".CartVecProduct"
+            android:label="@string/title_activity_cart_vec_product" >
+        </activity>
+        <activity
+            android:name=".PolVecAddThree"
+            android:label="@string/title_activity_pol_vec_add" >
+        </activity>
+        <activity
+            android:name=".PolVecAddTwo"
+            android:label="@string/title_activity_pol_vec_add_two" >
+        </activity>
+        <activity
+            android:name=".PolScalProduct"
+            android:label="@string/title_activity_pol_scal_product" >
+        </activity>
+        <activity
+            android:name=".PolVecProduct"
+            android:label="@string/title_activity_pol_vec_product" >
+        </activity>
+        <activity
+            android:name=".TwoVectorAdd"
+            android:label="@string/title_activity_two_vector_add" >
+        </activity>
+        <activity
+            android:name=".PolAddTwoVectors"
+            android:label="@string/title_activity_pol_add_two_vectors" >
+        </activity>
+        <activity
+            android:name=".DisplayCartVectScalProduct"
+            android:label="@string/title_activity_display_cart_vect_scal_product" >
+        </activity>
+        <activity
+            android:name=".CartScalProductDisplay"
+            android:label="@string/title_activity_cart_scal_product_display" >
+        </activity>
+        <activity
+            android:name=".DCVSP"
+            android:label="@string/title_activity_dcvsp" >
+        </activity>
+        <activity
+            android:name=".DispPolScalProd"
+            android:label="@string/title_activity_disp_pol_scal_prod" >
+        </activity>
+        <activity
+            android:name=".DisplayPolarVectorProduct"
+            android:label="@string/title_activity_display_polar_vector_product" >
+        </activity>
+        <activity
+            android:name=".DisplayCartVectorProduct"
+            android:label="@string/title_activity_display_cart_vector_product" >
+        </activity>
+        <activity
+            android:name=".DisplayCartVectorAddtionThree"
+            android:label="@string/title_activity_display_cart_vector_addtion_three" >
+        </activity>
+        <activity
+            android:name=".DisplayPolarVectorAddtionThree"
+            android:label="@string/title_activity_display_polar_vector_addtion_three" >
+        </activity>
+    </application>
+
+</manifest>

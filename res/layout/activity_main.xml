@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vectorcalculator.MainActivity" >
+    
+    <Button
+        android:id="@+id/btnCartVecAddThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCartVecAddTwo"
+        android:layout_below="@+id/btnCartVecAddTwo"
+        android:layout_marginTop="14dp"
+        android:text="Cartesian Three Vector Addition" />
+
+    <Button
+        android:id="@+id/btnCartVecAddTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Cartesian Two Vectors Addition" />
+
+    <Button
+        android:id="@+id/btnCartVecProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCartScalProd"
+        android:layout_below="@+id/btnCartScalProd"
+        android:layout_marginTop="16dp"
+        android:text="Cartesian Vector Product" />
+
+    <Button
+        android:id="@+id/btnPolVecAddTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCartVecProd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Polar Two Vectors Addition" />
+
+    <Button
+        android:id="@+id/btnPolScalProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPolVectAddThree"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Polar Scalar Product" />
+
+    <Button
+        android:id="@+id/btnPolVectAddThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPolVecAddTwo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Polar Three Vectors Addition" />
+
+    <Button
+        android:id="@+id/btnPolVecProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnPolScalProd"
+        android:layout_below="@+id/btnPolScalProd"
+        android:layout_marginTop="16dp"
+        android:text="Polar Vector Product" />
+
+    <Button
+        android:id="@+id/btnCartScalProd"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCartVecAddThree"
+        android:layout_centerHorizontal="true"
+        android:text="Cartesian Scalar Product" />
+    
+
+</RelativeLayout>

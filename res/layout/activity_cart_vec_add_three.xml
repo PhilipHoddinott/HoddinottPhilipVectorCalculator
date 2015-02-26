@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vectorcalculator.CartVecAddThree" >
+
+      <TextView
+        android:id="@+id/LabelX1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="63dp"
+        android:text="X1:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/LabelY1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/LabelX1"
+        android:layout_below="@+id/LabelX1"
+        android:layout_marginTop="21dp"
+        android:text="Y1:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/LabelX2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/LabelY1"
+        android:layout_below="@+id/LabelY1"
+        android:layout_marginTop="22dp"
+        android:text="X2:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/LabelY2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/LabelX2"
+        android:layout_below="@+id/LabelX2"
+        android:layout_marginTop="23dp"
+        android:text="Y2:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/Label1X3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/LabelY2"
+        android:layout_below="@+id/LabelY2"
+        android:layout_marginTop="19dp"
+        android:text="X3:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/label1Y3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/Label1X3"
+        android:layout_below="@+id/Label1X3"
+        android:layout_marginTop="18dp"
+        android:text="Y3:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/inputX1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/LabelY1"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/inputY1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/LabelY1"
+        android:layout_alignBottom="@+id/LabelY1"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/inputX2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/LabelX2"
+        android:layout_alignBottom="@+id/LabelX2"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal"
+        tools:ignore="RtlHardcoded" >
+
+    
+    </EditText>
+
+    <EditText
+        android:id="@+id/inputY2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/LabelY2"
+        android:layout_alignBottom="@+id/LabelY2"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal"
+        tools:ignore="RtlHardcoded" />
+    <EditText
+        android:id="@+id/input1X3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Label1X3"
+        android:layout_alignBottom="@+id/Label1X3"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/input1Y3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/label1Y3"
+        android:layout_alignBottom="@+id/label1Y3"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="numberSigned|numberDecimal"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btnDrawVector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input1Y3"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="32dp"
+        android:layout_toRightOf="@+id/label1Y3"
+        android:text="Draw Vector"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+</RelativeLayout>

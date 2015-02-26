@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">0VectorCalculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cart_scal_product">CartScalProduct</string>
+    <string name="title_activity_cart_vec_add">CartVecAdd</string>
+    <string name="title_activity_cart_vec_add_two">CartVecAddTwo</string>
+    <string name="title_activity_cart_vec_product">CartVecProduct</string>
+    <string name="title_activity_pol_vec_add">PolVecAdd</string>
+    <string name="title_activity_pol_vec_add_two">PolVecAddTwo</string>
+    <string name="title_activity_pol_scal_product">PolScalProduct</string>
+    <string name="title_activity_pol_vec_product">PolVecProduct</string>
+    <string name="title_activity_two_vector_add">TwoVectorAdd</string>
+    <string name="title_activity_pol_add_two_vectors">PolAddTwoVectors</string>
+    <string name="title_activity_display_cart_vect_scal_product">DisplayCartVectScalProduct</string>
+    <string name="title_activity_cart_scal_product_display">CartScalProductDisplay</string>
+    <string name="title_activity_dcvsp">DCVSP</string>
+    <string name="title_activity_disp_pol_scal_prod">DispPolScalProd</string>
+    <string name="title_activity_display_polar_vector_product">DisplayPolarVectorProduct</string>
+    <string name="title_activity_display_cart_vector_product">DisplayCartVectorProduct</string>
+    <string name="title_activity_display_cart_vector_addtion_three">DisplayCartVectorAddtionThree</string>
+    <string name="title_activity_display_polar_vector_addtion_three">DisplayPolarVectorAddtionThree</string>
+
+</resources>
